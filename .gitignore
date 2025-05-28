@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# cache parcel build
+/.parcel-cache
+
 # testing
 /coverage
 

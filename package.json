@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "An example of Instant-Search Algolia Application up to enable deployment on Kinsta App Hosting services.",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "start-parcel": "parcel index.html --port 3000",
