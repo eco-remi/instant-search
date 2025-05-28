@@ -1,0 +1,27 @@
+{
+  "name": "instant-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example of Instant-Search Algolia Application up to enable deployment on Kinsta App Hosting services.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-parcel": "parcel index.html --port 3000",
+    "build": "parcel build index.html",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write ."
+  },
+  "author": "Dubrulle Rémi",
+  "license": "GNU3",
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "parcel": "2.0.1",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "algoliasearch": "4",
+    "instantsearch.js": "4.78.3"
+  }
+}
